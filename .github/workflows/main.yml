@@ -4,7 +4,7 @@ name: Unity 2D Platformer CI/CD
 # Условие запуска: реагировать на любой push в главную ветку master
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   # ЗАДАЧА 1: Быстрая диагностика структуры проекта (Sanity Check)
@@ -54,7 +54,7 @@ jobs:
           BACKUP_TOKEN: ${{ secrets.BACKUP_TOKEN }}
         run: |
           echo "=== Начало процесса зеркалирования ==="
-          git push --force https://x-access-token:${BACKUP_TOKEN}@github.com/helloworldd0/arpo2.git master
+          git push --force https://x-access-token:${BACKUP_TOKEN}@github.com/helloworldd0/arpo2.git main
           echo "=== Код успешно продублирован ==="
  
   # НОВЫЙ ЭТАП 3: Автоматическая сборка Docker-образа в облако
