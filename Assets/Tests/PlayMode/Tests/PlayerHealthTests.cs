@@ -11,7 +11,6 @@ public class PlayerHealthTests
     public IEnumerator
     PlayMode_PlayerTakesDamage_HealthDecreases()
     {
-        Assert.AreEqual(1, 2);
         GameObject playerObj = new GameObject("TestPlayer");
         
         playerObj.SetActive(false);
