@@ -6,8 +6,8 @@
 
 ## Шаг 2: Написание автоматических тестов
 Вариант 4 
-Health + HealthIsZero
-При достижении 0 HP планируется событие HealthIsZero
+PlayerController
+При controlEnabled = false горизонтальный ввод обнуляется
 <img width="960" height="505" alt="Снимок экрана 2026-11-09 144719" src="https://github.com/user-attachments/assets/b54b2901-b142-4be2-8d87-f5403698af7a" />
 <img width="960" height="505" alt="Снимок экрана 2026-11-09 142903" src="https://github.com/user-attachments/assets/95b23cb9-3acb-49b3-85b4-d1ec02ec9771" />
 <img width="960" height="505" alt="Снимок экрана 2026-11-09 144917" src="https://github.com/user-attachments/assets/96108f6a-23af-4cb1-987f-3fa43b938732" />
