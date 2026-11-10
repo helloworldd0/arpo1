@@ -5,3 +5,4 @@
 | 1 | Автоматическая сборка Unity-проекта под WebGL через CLI, Git и Pull Request | [LR1.md](LR1.md) |
 | 2 | CI/CD в GitHub Actions: проверка проекта и зеркалирование репозитория | [LR2.md](LR2.md) |
 | 3 | Контейнеризация веб-сервера в Docker и раздача сжатых файлов через Nginx | [LR3.md](LR3.md) |
+| 4 | Автоматизация тестирования (Unity Test Runner) в CI/CD | [LR4.md](LR4.md) |
