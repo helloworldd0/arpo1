@@ -17,6 +17,7 @@ jobs:
       - name: Check Unity Directories
         run: |
           echo "=== Проверка наличия метаданных Unity ==="
+          exit 1
           if [ -d "ProjectSettings" ]; then echo "ProjectSettings найден."; else echo "Ошибка!" && exit 1; fi
           if [ -d "Packages" ]; then echo "Packages найден."; else echo "Ошибка!" && exit 1; fi
 
